@@ -1,6 +1,7 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Chain Review
 
 Browser extension which connects researchers and blockchain.
+For now is just a POC project for present the concept
 
 ## Features
 
@@ -15,6 +16,13 @@ npm install
 npm build
 
 [**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
+
+## TODO
+
+- Create comments and reviews on Lens
+- Charge fee or Give reward when user comment or been voted(through create new Lens module)
+- Deploy Lens and bounty protocol on FEVM
+- Keeper check bounty condition to automic reward user caccomplish condition, for example: rated by 100 people
 
 ## Contribution
 
