@@ -359,7 +359,10 @@ const getList = () => {
           localStorage.setItem(element.user, 110);
         } else {
           target = parseInt(target) + 10;
+          let tipperAmount = localStorage.getItem(tipper);
+          tipperAmount = tipperAmount - 10;
           localStorage.setItem(element.user, target);
+          localStorage.setItem(tipper, tipperAmount);
         }
         generateToken(connectBtn.innerText);
       });
