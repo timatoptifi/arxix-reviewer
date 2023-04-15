@@ -22,7 +22,7 @@ npm build
 - Create comments and reviews on Lens
 - Charge fee or Give reward when user comment or been voted(through create new Lens module)
 - Deploy Lens and bounty protocol on FEVM
-- Keeper check bounty condition to automic reward user caccomplish condition, for example: rated by 100 people
+- Keeper check bounty condition to automic reward user accomplish condition, for example: rated by 100 people
 
 ## Contribution
 
